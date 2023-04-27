@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "f66f125d-6b20-49f7-8c96-d429f07ee434",
+		"name": "TNT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8081/aggregation?pricing=NL,CN&track=109347263,123456891&shipments=109347263,123456891",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/aggregation?pricing=NL,CN&track=109347263,123456891&shipments=109347263,123456891",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"aggregation"
+					],
+					"query": [
+						{
+							"key": "pricing",
+							"value": "NL,CN"
+						},
+						{
+							"key": "track",
+							"value": "109347263,123456891"
+						},
+						{
+							"key": "shipments",
+							"value": "109347263,123456891"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

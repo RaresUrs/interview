@@ -1,0 +1,5 @@
+com/tnt/digital/validator/OrderNumberValidatorTest.class
+com/tnt/digital/utils/UtilsTest.class
+com/tnt/digital/controller/AggregationControllerTest.class
+com/tnt/digital/DigitalApplicationTests.class
+com/tnt/digital/service/AggregationServiceImplTest.class
